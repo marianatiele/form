@@ -1,0 +1,115 @@
+/* reset CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #ebe3e3;
+}
+
+h1, h2, h3, h4, h5{
+    color: #333;
+}
+p, label{
+    color: #444;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+ 
+}
+input[type='text'], input[type='number'], input[type='date'], input[type='file'], textarea{
+    width: 400px;
+}
+textarea{
+    padding: 10px 5px;
+}
+/* page header */
+.header{
+    height: 160px;
+    padding: 20px;
+    background-color: #673ab7;
+
+}
+.header h3{
+    margin-top: 0px;
+    color: #fff;
+}
+/* form */
+.form-container{
+    background-color: #fdfdfd;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
+/* form header */
+.form-header{
+    border: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-header p{
+    color: #673ab7;
+    border-bottom: 2px solid #673ab7;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+}
+
+.form-body{
+    padding: 30px;
+}
+
+.form-title{
+    margin-bottom: 20px;
+}
+.form-body p{
+    margin-bottom: 20px;
+}
+
+.requered-fild{
+    color: red;
+}
+
+.box-input{
+    margin-bottom: 35px;
+}
+.block{
+    display: block;
+}
+
+.opcional{
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.opcionais li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.btn-submit{
+    cursor: pointer;
+    background-color: #673ab7;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    transition: 0.5s;
+
+}
+.btn-submit:hover{
+    background-color: #fff;
+    color: #673ab7;
+    border-color: #673ab7;
+}
